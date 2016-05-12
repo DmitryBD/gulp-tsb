@@ -48,7 +48,7 @@ export function createTypeScriptBuilder(config: IConfiguration, compilerOptions:
         emitSourceMapsInStream = true;
 
     // always emit declaraction files
-    host.getCompilationSettings().declaration = true;
+    // host.getCompilationSettings().declaration = true;
 
     function _log(topic: string, message: string): void {
         if (config.verbose) {
